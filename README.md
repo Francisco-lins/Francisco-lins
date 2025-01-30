@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @Francisco-lins
+- 👀 I’m interested in learn programming
+- 🌱 I’m currently learning Python
+- 📫 How to reach me: My email: franciscormlins@gmail.com
+- 😄 Pronouns: He/him
+- ⚡ Fun fact: I like programming 
