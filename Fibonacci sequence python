@@ -1,0 +1,15 @@
+Fibonaci sequence in python
+
+n1 = int(input('How many of the Fibonacci sequence: '))
+amount = 0
+t1 = 0
+t2 = 1
+t3 = t1 + t2
+print(f'{t1} →', end=' ')
+while amount != n1:
+    print(f'{t2} →', end=' ')
+    amount += 1
+    t3 = t1+t2
+    t1 = t2
+    t2 = t3
+print(' End')
