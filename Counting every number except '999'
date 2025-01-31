@@ -1,0 +1,12 @@
+Counting every number except '999'
+In python:
+
+state = False
+add = 0
+while state != True:
+    n1 = int(input('Type a number: '))
+    if n1 != 999:
+        add += n1
+    if n1 == 999:
+        state = True
+print(f'The sum of these numbers except "999" is: {add}')
