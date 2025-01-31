@@ -1,0 +1,38 @@
+I created this caculator
+I used python for this:
+
+n1 = 0
+n2 = 0
+menu = 0
+biggest = 0
+state = False
+while state != True:
+    n1 = input('Type a number: ')
+    n2 = input('Type another number: ')
+    menu = input("""[1] Sum/Addition
+[2] Multiplication
+[3] Biggest
+[4] New numbers
+[5] Stop the calculator
+Type Here: """)
+    if menu == 1:
+        print(f'The sum is: {n1 + n2}.')
+        state = True
+    if menu == 2:
+        print(f'The multiplication is: {n2*n1}.')
+        state = True
+    if menu == 3:
+        if n2>n1:
+            biggest = n2
+            print(f'The biggest number is: {biggest}')
+        elif n1>n2:
+            state = n1
+            print(f'The Biggest number is: {biggest}')
+        else:
+            print('The numbers are the same.')
+        state = True
+    if menu == 4:
+        sate = False
+    if state == 5:
+        state = True
+print('End')
